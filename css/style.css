@@ -19,7 +19,7 @@ border-image-width: 20px;
 }
 
 body{
-	font-family: Consolas;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #808080;
 	
@@ -81,19 +81,20 @@ body{
 
 #lo-ultimo{
 	background-color: #2C6D67;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 #ultimo-peliculas{
 	background-color: #B24C1B;
 	padding:50px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .title{
 	color: #fff;
 	text-align: center;
 	text-transform:uppercase;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
 }
 
@@ -101,20 +102,20 @@ body{
 	color: #0A2828;
 	text-align:center;
 	text-transform:uppercase;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
  }
 .subtitle{
 	color: #fff;
 	text-align: center;
-	font-size: 25px;
-	font-weight: 100;
+	font-size: 20px;
+	font-weight: 300;
 }
 
 .subtitle-hover{
 	color: #0A2828;
 	font-size: 20px;
-	font-weight: 100;
+	font-weight: 300;
 	text-align: left;
 }
 
@@ -132,6 +133,7 @@ body{
 
 #Trailers h2{
 	background-color: #94CFD5;
+	padding: 10px;
 }
 
 #Trailers p{
@@ -233,7 +235,85 @@ body{
 	font-size: 18px;
 }
 
+.series-fondo{
+	background-color: #0A2828;
+	padding:10px;
+}
+.series-titulo{
+	background-color: #B24C1B;
+	color: #fff;
+	text-align: center;
+	text-transform:uppercase;
+	font-size: 25px;
+	font-weight: 600;
+	padding:5px;
+	margin-top: 5px;
+}
 
+.series-contenido{
+	background-color: #0A2828;
+	padding:30px;
+}
+
+.division{
+	background-color: #94CFD5;
+	padding: 10px;
+}
+
+.division-blanca{
+	background-color: #fff;
+	padding: 10px;
+}
+
+.serie-title{
+	font-weight: 600;
+	font-size: 25px;
+	color: #fff;
+}
+
+.serie-p{
+	font-weight: 200;
+	font-size: 17px;
+	color: #fff;
+}
+
+#content{
+	padding: 7% 0;
+	background-color:#F1E9DB;
+}
+
+#content h4{
+	color: #0A2828;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#content p{
+	color: #0A2828;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+#btn-info{
+	background-color: #0A2828;
+	color: #fff;
+}
+
+#map{
+	background-color:#F1E9DB;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+
+#map-view{
+	width: 100%;
+	height: 300px;
+}
+
+.centro{
+	text-align: center;
+}
 footer{
 	background-color:  #94CFD5;
 	color: #0A2828;
@@ -260,3 +340,4 @@ footer h4{
 footer h2{
 	font-size: 23px;
 }
+

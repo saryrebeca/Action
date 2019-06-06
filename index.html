@@ -3,11 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Action</title>
+<title>Action Home</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/fontawesome.min.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+
+<meta name="Description" content="Action es un medio digital que provee noticias sobre el cine y series de entretenimiento.">
+<meta name="Keywords" content="Action, medio digital, cine, series, noticias, último en noticias, actualidad, entretenimiento, artistas, biografías, Pokémon, Cannes 2019, Aladdin">	
+	
 </head>
+	
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700&display=swap');
 
 <body>
 	
@@ -40,11 +48,15 @@
       </li>
   
       <li class="nav-item">
-        <a class="nav-link" href="#">Series</a>
+        <a class="nav-link" href="series.html">Series</a>
       </li>
 		
 		<li class="nav-item">
         <a class="nav-link" href="biografias.html">Biografías</a>
+      </li>
+		
+		<li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
       </li>
 		
 	 </ul>
@@ -182,12 +194,13 @@
 			<article class="col-md-6 col-sm-6 col-xs-12">	
 				<h2 class="title">Trailers</h2>
 			
-				<img src="img/2560_3000 (1).jpeg" alt="Img Avengers" class="img-fluid">
-				<h3 class="title-hover"><a href="https://www.espinof.com/trailers/primer-trailer-avengers-endgame-promete-espectacular-fin-era">Avengers</a></h3>
+				<a href="https://www.youtube.com/watch?v=VhCUoIuC5zs" data-fancybox><img src="img/2560_3000 (1).jpeg" alt="Img Avengers" class="img-fluid"></a>
+				
+				<a href="https://www.youtube.com/watch?v=VhCUoIuC5zs" data-fancybox><h3 class="centro">Avengers</h3></a>
 				<p class="subtitle-hover">El estreno de 'Vengadores: Endgame' ya está a la vuelta de la esquina.</p>
 				
-				<img src="img/2560_3000.jpeg" alt="Img Game of Thrones" class="img-fluid">
-				<h3 class="title-hover"><a href="https://www.espinof.com/series-de-ficcion/papel-gendry-juego-tronos-a-juicio-cuatro-guionistas-intentan-buscar-sentido-al-personaje-tapado-serie">Game of Thrones</a></h3>
+				<a href="https://www.youtube.com/watch?v=rlR4PJn8b8I" data-fancybox><img src="img/2560_3000.jpeg" alt="Img Game of Thrones" class="img-fluid"></a>
+				<a href="https://www.youtube.com/watch?v=rlR4PJn8b8I" data-fancybox><h3 class="centro">Game of Thrones</h3></a>
 				<p class="subtitle-hover">El cuarto episodio de la última temporada de Juego de Tronos está cosechando muy malas críticas.</p>
 				
 			</article>
@@ -257,5 +270,6 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
