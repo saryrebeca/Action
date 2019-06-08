@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700&display=swap');
+
 header{
 	background-color: #CEB280;
 	
@@ -21,7 +23,7 @@ border-image-width: 20px;
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #808080;
+	color: #fff;
 	
 }
 
@@ -46,11 +48,6 @@ body{
 	margin-bottom: 15px;
 }
 
-#slides{
-	background-color: #B24C1B;
-	padding: 40px;
-	margin-bottom: 20px;
-}
 #slides h1{
 	color: #fff;
 	font-size: 30px;
@@ -58,6 +55,7 @@ body{
 	font-weight: 600;
 	margin-left: 10px;
 	text-align: left;
+	text-transform:uppercase;
 	
 }
 

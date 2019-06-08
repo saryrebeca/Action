@@ -8,6 +8,7 @@
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="css/fontawesome.min.css" rel="stylesheet">
 <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
 <meta name="Description" content="Contacta Action">
@@ -34,7 +35,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -114,6 +115,8 @@
 						<p>action@info.com</p>
 					</ul>
 					
+                <div class="addthis_inline_follow_toolbox"></div>
+            
 				</article>
 				
 				<article class="col-md-6 col-sm-12">
@@ -125,7 +128,7 @@
 						</div>
 						
 						<div class="form-group col-md-6">
-							<input type="email" id="email" name="email" class="form-control" placeholder="E-mail">
+							<input type="email" id="email" name="email" class="form-control" placeholder="Correo">
 						</div>
 							
 						</div>
@@ -138,11 +141,11 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<textarea id="messages" name="messages" class="form-control" placeholder="Messages" rows="8"></textarea>
+							<textarea id="messages" name="messages" class="form-control" placeholder="Mensajes" rows="8"></textarea>
 						</div>
 						
 						<div class="form-group">
-							<button type="submit" class="btn btn-info">Submit</button>
+							<button type="submit" class="btn btn-info">Enviar</button>
 						
 						</div>
 						
@@ -158,48 +161,24 @@
 		</div>
 	</section>
 	
-	<footer>
+	<footer class="wow fadeInUp" data-wow-delay = "2s">
 		<div class="container-fluid">
-		<div class="row mt-5">	
-			<article class="col-md-4 col-sm-6 col-xs-12">
 				<img src="img/actionlogo3.png" alt="Logo Action" class="img-fluid">	
-			</article>
-		
-			<article class="col-md-4 col-sm-6 col-xs-12">
-				<h5>Contactanos:</h5>
-				<ul class="list-inline">
-				<li class="list-inline-item">
-				<img src="img/twitter.png" alt="twitter" class="img-fluid">	
-				</li>	
-				
-				<li class="list-inline-item">
-				<a title="Facebook" href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>	
-				</li>
-				
-				<li class="list-inline-item">
-					<a title="Gmail" href="https://www.google.com/gmail/"><img src="img/gmail.png" alt="Gmail"></a>	
-				</li> 
-					
-				<li class="list-inline-item">
-				<img src="img/youtube.png" alt="Youtube" class="img-fluid">	
-				</li>
-				
-				</ul>
-			</article>
 			
-			<article class="col-md-4 col-sm-6 col-xs-12">
-				<h2>Luces, cámara y #Action</h2>
-				<p>Action, últimas noticias de cine, televisión,<br> y series.Actualidad cinematográfica, estrenos <br> en cartelera y premios.</p>
-			</article>
-		</div>
-		<div class="container-fluid">
-			<h4><br><br><br><br>Copyright 2019-Action</h4>
-		</div>
+				<br><br><h2><b>Luces, cámara y #Action</b></h2>
+				<p>Action, últimas noticias de cine, televisión, y series. Actualidad cinematográfica, estrenos en cartelera y premios.</p>
+			
+				<h4><br><br><br><br><b>Copyright 2019-Action</b></h4>
+		
 		</div>
 	</footer>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+              </script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
 	<script src="js/gmaps.js"></script>
 	
@@ -212,8 +191,8 @@ $(function () {
 
 	function mostrarMapa(){
 		var map;
-		var mLat = 14.048399; //latitud
-		var mLng = -87.174078; //longitud
+		var mLat = 14.062927; //latitud
+		var mLng = -87.220283; //longitud
 
 		map = new GMaps({
 			div: '#map-view', //id del <div> donde se mostrará el mapa.
@@ -245,6 +224,8 @@ $(function () {
   gtag('config', 'UA-141120154-1');
 </script>
 	
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cf9a6cc4d1a890f"></script>
 	
 </body>
 </html>
