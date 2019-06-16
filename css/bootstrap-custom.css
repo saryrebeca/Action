@@ -65,6 +65,10 @@ a{
     background-color: transparent;
 }
 
+.navbar-light .toggler-icon {
+    color: #fff;
+}
+
 .navbar-light .navbar-toggle:hover .icon-bar {
     background-color: #8B2588;
 	cursor:pointer;
